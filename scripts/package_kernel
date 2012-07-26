@@ -384,6 +384,9 @@ lava_test()
 		lt-omap)
 			hwpack_flavour="lt-panda"
 			;;
+		omap)
+			hwpack_flavour="overo"
+			;;
 		lt-origen)
 			hwpack_flavour="leb-origen"
 			;;

@@ -1,0 +1,2 @@
+#!/bin/sh
+scripts/package_kernel -k $GPGKEY --cfg configs/sakoman-omap-3.5.cfg do_test_build_source_pkg=true do_lava_testing=true job_flavour=omap
